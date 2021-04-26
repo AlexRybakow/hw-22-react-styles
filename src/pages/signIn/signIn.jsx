@@ -1,4 +1,5 @@
-import Icon from '../padlock.png'
+import Icon from '../padlock.png';
+import { Link } from 'react-router-dom';
 
 const SignIn = () => {
     return(
@@ -8,8 +9,12 @@ const SignIn = () => {
             <input className='user-input' type="text" placeholder='Enter e-mail'/>
             <input className='user-input' type="text" placeholder='Enter password'/>
             </div>
-            <input type="checkbox" name="check" id="signin-checkbox"/>
+            <div className='checkbox-input'>
+             <input type="checkbox" name="check" id="signin-checkbox"/>
+             <label htmlFor="remember-user">Remember me</label>
+            </div>
             <button className='signin-button'>Sign In</button>
+            <Link to='/hw-22-react-styles/signup'>Don't have an account?</Link>
         </div>
     )
 }
