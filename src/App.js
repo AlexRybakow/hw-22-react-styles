@@ -13,13 +13,13 @@ function App() {
       </header>
       <main className='main-block'>
         <Switch>
-          <Route path='/' exact>
+          <Route path='/hw-22-react-styles' exact>
           <HomePage/>
           </Route>
-          <Route path='/signin'>
+          <Route path='/hw-22-react-styles/signin'>
           <SignIn/>
           </Route>
-          <Route path='/signup' >
+          <Route path='/hw-22-react-styles/signup' >
           <SignUp/>
           </Route>
         </Switch>
