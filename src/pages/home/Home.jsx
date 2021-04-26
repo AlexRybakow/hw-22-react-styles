@@ -3,8 +3,8 @@ import StarTrek from './spok.jpeg'
 const Homepage = () => {
     return(
         <div className="home-page">
-            <img src={StarTrek}></img>
-            <h1>Choose the page and live long and prosper</h1>
+            <img src={StarTrek} alt='startrek'></img>
+            <h1>Join us and live long and prosper</h1>
         </div>
     )
 }

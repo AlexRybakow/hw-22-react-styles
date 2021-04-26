@@ -2,15 +2,15 @@ import React from 'react';
 import { NavLink } from 'react-router-dom'
 
 const links = [{
-    to:'/hw21-react-router/',
+    to:'/',
     label:'Home Page'
 },
 {
-    to:'/hw21-react-router/signin',
+    to:'/signin',
     label:'Sign In'
 },
 {
-    to:'/hw21-react-router/signup',
+    to:'/signup',
     label:'Sign Up'
 },
 ]
